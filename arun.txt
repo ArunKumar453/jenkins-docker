@@ -1,0 +1,60 @@
+    1  clear
+    2  mkdir learnig_jenkins
+    3  ls
+    4  cd learning_jenkins
+    5  cd learnig_jenkins
+    6  ls
+    7  clear
+    8  sudo apt update
+    9  clea
+   10  cl
+   11  cls
+   12  clea
+   13  clear
+   14  sudo apt install openjdk-11-jre
+   15  java -version
+   16  clear
+   17  java -version
+   18  curl -fsSL https://pkg.jenkins.io/debian/jenkins.io-2023.key | sudo tee   /usr/share/keyrings/jenkins-keyring.asc > /dev/null
+   19  echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc]   https://pkg.jenkins.io/debian binary/ | sudo tee   /etc/apt/sources.list.d/jenkins.list > /dev/null
+   20  sudo apt-get update
+   21  sudo apt-get install jenkins
+   22  clear
+   23  ps -ef |grep jenkins
+   24  ps -ef
+   25  clea
+   26  clear
+   27  ps -ef |grep jenkins
+   28  clea
+   29  clear
+   30  cat /var/lib/jenkins/secrets/initialAdminPassword
+   31  sudo cat /var/lib/jenkins/secrets/initialAdminPassword
+   32  clear
+   33  sudo apt install docker.io
+   34  clea
+   35  rclear
+   36  clear
+   37  sudo su - 
+   38  usermod -aG docker jenkins
+   39  usermod -aG docker ubuntu
+   40  systemctl restart docker
+   41  clear
+   42  node --version
+   43  su - jenkins
+   44  sudo su -
+   45  clear
+   46  cd learnig_jenins
+   47  cd learnig_jenkins
+   48  sudo su -
+   49  clear
+   50  git init
+   51  git add *
+   52  git status
+   53  ls
+   54  cd learnig_jenkins
+   55  git init
+   56  clear
+   57  ld
+   58  ls
+   59  ls -a
+   60  history >> arun.txt
